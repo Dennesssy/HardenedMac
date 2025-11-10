@@ -29,9 +29,22 @@
 		31D5A9DA2EC1A88B00E07B88 /* HardenedMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardenedMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		31D5A9F52EC1A96700E07B88 /* Exceptions for "HardenedMac" folder in "HardenedMac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"macos_swiftui_dashboard copy 3.html",
+			);
+			target = 31D5A9C22EC1A88800E07B88 /* HardenedMac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		31D5A9C52EC1A88800E07B88 /* HardenedMac */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				31D5A9F52EC1A96700E07B88 /* Exceptions for "HardenedMac" folder in "HardenedMac" target */,
+			);
 			path = HardenedMac;
 			sourceTree = "<group>";
 		};
