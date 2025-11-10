@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		31D5A9F72EC1C00200E07B88 /* SecuritySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5A9F62EC1C00200E07B88 /* SecuritySettingsView.swift */; };
+		31D5A9F92EC1C06200E07B88 /* SystemSecuritySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5A9F82EC1C06200E07B88 /* SystemSecuritySettingsView.swift */; };
+		31D5A9FB2EC1C09600E07B88 /* AutomationMonitoringSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5A9FA2EC1C09600E07B88 /* AutomationMonitoringSettingsView.swift */; };
+		31D5A9FD2EC1C0CE00E07B88 /* DevelopmentSecuritySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5A9FC2EC1C0CE00E07B88 /* DevelopmentSecuritySettingsView.swift */; };
+		31D5A9FF2EC1C0ED00E07B88 /* SecurityHardeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5A9FE2EC1C0ED00E07B88 /* SecurityHardeningView.swift */; };
+		31D5AA012EC1C11800E07B88 /* SecuritySettingsControlMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5AA002EC1C11800E07B88 /* SecuritySettingsControlMapping.swift */; };
+		31D5AA032EC1C12700E07B88 /* SecurityHardeningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5AA022EC1C12700E07B88 /* SecurityHardeningApp.swift */; };
+		31D5AA052EC1C14E00E07B88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31D5AA042EC1C14E00E07B88 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		31D5A9D12EC1A88B00E07B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +38,14 @@
 		31D5A9C32EC1A88800E07B88 /* HardenedMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HardenedMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D5A9D02EC1A88B00E07B88 /* HardenedMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardenedMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D5A9DA2EC1A88B00E07B88 /* HardenedMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardenedMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D5A9F62EC1C00200E07B88 /* SecuritySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettingsView.swift; sourceTree = "<group>"; };
+		31D5A9F82EC1C06200E07B88 /* SystemSecuritySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSecuritySettingsView.swift; sourceTree = "<group>"; };
+		31D5A9FA2EC1C09600E07B88 /* AutomationMonitoringSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationMonitoringSettingsView.swift; sourceTree = "<group>"; };
+		31D5A9FC2EC1C0CE00E07B88 /* DevelopmentSecuritySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentSecuritySettingsView.swift; sourceTree = "<group>"; };
+		31D5A9FE2EC1C0ED00E07B88 /* SecurityHardeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityHardeningView.swift; sourceTree = "<group>"; };
+		31D5AA002EC1C11800E07B88 /* SecuritySettingsControlMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettingsControlMapping.swift; sourceTree = "<group>"; };
+		31D5AA022EC1C12700E07B88 /* SecurityHardeningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityHardeningApp.swift; sourceTree = "<group>"; };
+		31D5AA042EC1C14E00E07B88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +111,14 @@
 				31D5A9D32EC1A88B00E07B88 /* HardenedMacTests */,
 				31D5A9DD2EC1A88B00E07B88 /* HardenedMacUITests */,
 				31D5A9C42EC1A88800E07B88 /* Products */,
+				31D5A9F62EC1C00200E07B88 /* SecuritySettingsView.swift */,
+				31D5A9F82EC1C06200E07B88 /* SystemSecuritySettingsView.swift */,
+				31D5A9FA2EC1C09600E07B88 /* AutomationMonitoringSettingsView.swift */,
+				31D5A9FC2EC1C0CE00E07B88 /* DevelopmentSecuritySettingsView.swift */,
+				31D5A9FE2EC1C0ED00E07B88 /* SecurityHardeningView.swift */,
+				31D5AA002EC1C11800E07B88 /* SecuritySettingsControlMapping.swift */,
+				31D5AA022EC1C12700E07B88 /* SecurityHardeningApp.swift */,
+				31D5AA042EC1C14E00E07B88 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D5AA052EC1C14E00E07B88 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D5A9F92EC1C06200E07B88 /* SystemSecuritySettingsView.swift in Sources */,
+				31D5AA032EC1C12700E07B88 /* SecurityHardeningApp.swift in Sources */,
+				31D5A9FF2EC1C0ED00E07B88 /* SecurityHardeningView.swift in Sources */,
+				31D5A9FD2EC1C0CE00E07B88 /* DevelopmentSecuritySettingsView.swift in Sources */,
+				31D5AA012EC1C11800E07B88 /* SecuritySettingsControlMapping.swift in Sources */,
+				31D5A9FB2EC1C09600E07B88 /* AutomationMonitoringSettingsView.swift in Sources */,
+				31D5A9F72EC1C00200E07B88 /* SecuritySettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
